@@ -1,34 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dictionary App
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/eduardomartins09/Dictionary_App/blob/main/LICENSE) 
 
-## Getting Started
+## Sobre: 
+Link de produção: https://dictionary-bo9yttjhm-eduardomartins09.vercel.app/
+<br />
+Link da WordsAPI: https://rapidapi.com/dpventures/api/wordsapi
+Link da Text Translator API: https://rapidapi.com/dickyagustin/api/text-translator2
+<br />
+<br />
+O projeto Dictionary foi feito com NextJs 13 + Typescript + Tailwind CSS, e é alimentada pelas apis WordsAPI e Text Translator API.
 
-First, run the development server:
+O site inicializa mostrando a definição de uma palavra aleatória com alguns exemplos de frases, e também mostra caso exista, sinônimos e antônimos dessa palavra. O usuário também tem a opção de pesquisar uma palavra a sua escolha digitando na barra de pesquisa e também tem a opção de pesquisar uma palavra de forma aleatória.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Ao clicar para ir para Translate Text, o usuário será direcionado a uma página onde poderá traduzir uma frase em um determinado idioma para outro.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Tecnologias utilizadas:
+- NextJs 13
+- Typescript
+- Tailwind CSS
+- Headless UI 
+- React-Loading-Skeleton
+- React-Icons
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Ilustrações: 
