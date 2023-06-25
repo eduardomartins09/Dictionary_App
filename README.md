@@ -4,7 +4,9 @@
 ## Sobre: 
 Link de produção: https://dictionary-bo9yttjhm-eduardomartins09.vercel.app/
 <br />
+<br />
 Link da WordsAPI: https://rapidapi.com/dpventures/api/wordsapi
+<br />
 Link da Text Translator API: https://rapidapi.com/dickyagustin/api/text-translator2
 <br />
 <br />
@@ -25,3 +27,7 @@ Ao clicar para ir para Translate Text, o usuário será direcionado a uma págin
 
 
 ### Ilustrações: 
+![dictionaryHomeOne](https://github.com/eduardomartins09/Dictionary_App/assets/102693577/73ebfabd-007a-43cd-8efb-a209784a095b)
+![dictionaryHomeTwo](https://github.com/eduardomartins09/Dictionary_App/assets/102693577/129eaa96-bbd0-4d1c-a313-c039d63fef78)
+![dictionaryHomeThree](https://github.com/eduardomartins09/Dictionary_App/assets/102693577/57a6168f-89ca-4407-b604-461fd6a552b3)
+![dictionaryTranslate](https://github.com/eduardomartins09/Dictionary_App/assets/102693577/24a440c1-a33d-49ee-a6b6-634e487e29be)
