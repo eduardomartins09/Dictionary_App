@@ -3,7 +3,7 @@
 import Link from 'next/link'
 
 import { useState } from 'react'
-import { useRouter } from 'next/navigation'
+import { useRouter, usePathname } from 'next/navigation'
 
 import { fetchRandomWord } from '@/utils'
 
@@ -18,6 +18,7 @@ import CustomButton from './CustomButton'
 const Navbar = () => {
   const [search, setSearch] = useState("")
   const router = useRouter()
+  const pathname = usePathname()
 
   const handleClick = async (type: string) => {
     if (type === "search" && search !== "") {
@@ -74,7 +75,7 @@ const Navbar = () => {
                 textStyles="font-bold"            
             />    
         </div>
-        {window.location.pathname !== "/translation" && (
+        {pathname !== "/translation" && (
             <div className='grid justify-center gap-4'>
                 <h1 className='text-4xl sm:text-5xl lg:text-6xl font-extralight'>Search for a word, learn it forever.</h1>
                 <div className='flex items-center'>    
