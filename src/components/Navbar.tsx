@@ -60,13 +60,13 @@ const Navbar = () => {
                     <span className='text-green-500'>
                         <FaBook size={25} />
                     </span>
-                    <span className='text-xl font-bold'>Home Dictionary</span>
+                    <span className='text-sm sm:text-xl font-bold'>Home Dictionary</span>
                 </Link>             
                 <Link href="/translation?languageFrom=&languageTo=" className='flex items-center gap-2 bg-gray-700 p-2 rounded-lg mb-4 sm:mb-0 hover:bg-blue-950'>
                     <span className='text-green-500'>
                         <SiGoogletranslate size={25} />
                     </span>
-                    <span className='text-xl font-bold'>Translate Text</span>
+                    <span className='text-sm sm:text-xl font-bold'>Translate Text</span>
                 </Link>             
             </div>
             <CustomButton 
@@ -83,7 +83,7 @@ const Navbar = () => {
                         type="text" 
                         value={search}
                         placeholder='type a word...' 
-                        className='w-full h-[52px] p-4 rounded-full text-lg font-semibold text-black border-4 border-gray-800' 
+                        className='w-[95%] sm:w-full h-[52px] p-4 rounded-full text-lg font-semibold text-black border-4 border-gray-800' 
                         onChange={(e) => setSearch(e.target.value)}
                     />  
                     <div className='flex items-center'>

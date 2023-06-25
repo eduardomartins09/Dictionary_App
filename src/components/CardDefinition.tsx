@@ -10,7 +10,7 @@ interface CardProps {
 const CardDefinition = ({ word, pronunciation, results }: CardProps) => {
   return (
     <div className='bg-white p-6'>
-        <h1 className='text-5xl text-blue-900 font-bold'>{word}</h1>
+        <h1 className='text-4xl sm:text-5xl text-blue-900 font-bold'>{word}</h1>
         <p className='my-2 font-bold'>Pronunciation: <span className='text-lg text-blue-900 font-medium'>/{pronunciation}/</span></p>
         {results !== undefined 
           ? ( 

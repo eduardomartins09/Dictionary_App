@@ -83,7 +83,7 @@ const TranslateArea = ({ searchParams }: { searchParams: { languageFrom: string,
                         indexOptions={findIndexParams("languageFrom")}       
                     />
                 </li>
-                <li className='my-4 sm:mx-0 sm:my-0'>
+                <li className='my-14 sm:mx-0 sm:my-0'>
                     <FaExchangeAlt 
                         size={25} 
                         className='cursor-pointer mx-auto sm:mx-0'

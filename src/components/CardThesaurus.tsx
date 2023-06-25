@@ -11,7 +11,7 @@ const CardThesaurus = async ({ word }: CardThesaurus) => {
     
   return (
     <div className='bg-white p-6 mt-4'>
-        <h1 className='text-5xl text-blue-900 font-bold'>Thesaurus</h1>
+        <h1 className='text-4xl sm:text-5xl text-blue-900 font-bold'>Thesaurus</h1>
         <div className='grid sm:grid-cols-2 gap-4 rounded-lg mt-2'>
             <div>
                 <h1 className='text-3xl font-bold mb-2'>Synonyms</h1>

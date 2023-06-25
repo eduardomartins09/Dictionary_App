@@ -18,13 +18,13 @@ const Footer = () => {
               <span className='text-green-500'>
                 <FaBook size={25} />
               </span>
-              <span className='text-xl font-bold'>Home Dictionary</span>
+              <span className='text-sm sm:text-xl font-bold'>Home Dictionary</span>
             </Link>             
             <Link href="/translation?languageFrom=&languageTo=" className='flex items-center gap-2 bg-gray-700 p-2 rounded-lg mb-4 sm:mb-0 hover:bg-blue-950'>
               <span className='text-green-500'>
                 <SiGoogletranslate size={25} />
               </span>
-              <span className='text-xl font-bold'>Translate Text</span>
+              <span className='text-sm sm:text-xl font-bold'>Translate Text</span>
             </Link>             
           </div> 
           <div className="flex justify-center gap-4 mb-6">
