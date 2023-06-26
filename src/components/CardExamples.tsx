@@ -1,3 +1,5 @@
+
+
 import { Words } from '@/types/types'
 import { fetchExamples, toUpperCase } from '@/utils'
 
@@ -7,6 +9,8 @@ interface CardProps {
 
 const CardExamples = async ({ word }: CardProps) => {
   const exampleWords = await fetchExamples(word)
+
+  if (exampleWords.success === false) return
 
   return (
     <div className='bg-white p-6'>

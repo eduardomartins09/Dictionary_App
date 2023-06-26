@@ -8,6 +8,9 @@ interface CardThesaurus {
 const CardThesaurus = async ({ word }: CardThesaurus) => {
   const antonymsWords = await fetchSynonymOrAntonyms(word, "antonyms")
   const synonymsWords = await fetchSynonymOrAntonyms(word, "synonyms")
+
+  if (antonymsWords.success === false) return
+  if (synonymsWords.success === false) return
     
   return (
     <div className='bg-white p-6 mt-4'>

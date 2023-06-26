@@ -50,7 +50,10 @@ export async function fetchExamples(word: string) {
 
 export async function fetchRandomWord() {
     const response = await fetch(`https://wordsapiv1.p.rapidapi.com/words/?random=true`, {
-        headers: headers,
+        headers: {
+            'X-RapidAPI-Key': '4c1595f45cmshc5c5767175c3b4dp14aecajsn0d4f507867ca',
+            'X-RapidAPI-Host': 'wordsapiv1.p.rapidapi.com'
+        },
     })
 
     try {
