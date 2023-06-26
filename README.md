@@ -2,7 +2,7 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/eduardomartins09/Dictionary_App/blob/main/LICENSE) 
 
 ## Sobre: 
-Link de produção: https://dictionary-bo9yttjhm-eduardomartins09.vercel.app/
+Link de produção: https://dictionary-app-git-main-eduardomartins09.vercel.app/
 <br />
 <br />
 Link da WordsAPI: https://rapidapi.com/dpventures/api/wordsapi
